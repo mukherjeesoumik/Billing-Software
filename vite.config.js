@@ -6,4 +6,8 @@ export default defineConfig({
   resolve: {
     alias: [{ find: "@", replacement: "/src" }],
   },
+  server: {
+    port: 5173,
+    host: true,
+  },
 });
